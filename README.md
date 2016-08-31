@@ -28,8 +28,8 @@ tomcat-redis-session-manager
 * 项目构建由gradle改为Maven
 
 ##注意事项
- -如果tomcat启动redis-tomcat-session-manager的错误，请将commons-pool2-2.2.jar 和jedis-2.5.2.jar升级到最新稳定版本
- -在JAVA项目中使用setAttribute(Object obj)的时候，其中参数obj必须实现序列化接口，否则属性设置不进去。
+ - 如果tomcat启动redis-tomcat-session-manager的错误，请将commons-pool2-2.2.jar 和jedis-2.5.2.jar升级到最新稳定版本
+ - 在JAVA项目中使用setAttribute(Object obj)的时候，其中参数obj必须实现序列化接口，否则属性设置不进去。
 
 ## license
 * [forked from jcoleman/tomcat-redis-session-manager](http://github.com/jcoleman/tomcat-redis-session-manager)
